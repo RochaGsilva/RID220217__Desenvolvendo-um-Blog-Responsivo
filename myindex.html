@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Dev News</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+    <div class="desktop">
+        <header class="navbar">
+            <div class="navbar-text">
+                <h1>The Dev News</h1>
+            </div>
+        </header>
+        <section class="desktop-flex">
+            <!-- Feed principal: banner em cima do frame -->
+            <div class="feed-principal">
+                <article class="banner-article">
+                    <div class="banner-overlay"></div>
+                    <div class="banner-text">
+                        <p>Opinião</p>
+                        <h2>Como é ser um desenvolvedor</h2>
+                        <p>By Fabio Tetsuo</p>
+                    </div>
+                </article>
+                <section class="frame">
+                    <div class="tittle-section-frame">
+                        <h2>Posts mais recentes</h2>
+                        <a id="link" href="#">Ver todos</a>
+                    </div>
+                    <div class="session-card">
+                        <article class="card">
+                            <img src="./assets/mobile.png" alt="Desenvolvimento Mobile">
+                            <div class="card-conteudo">
+                                <div class="card-text">
+                                    <span class="categoria">Desenvolvimento</span>
+                                    <h3>Desenvolvimento mobile</h3>
+                                    <p class="autor">By Fabio Tetsuo</p>
+                                    <p class="resumo">Lorem ipsum dolor sit amet consectetur. In vitae nulla velit interdum posuere pretium dapibus. Interdum semper mauris convallis fusce in dictum.</p>
+                                    <p class="data">22 Agosto 2022</p>
+                                </div> 
+                            </div>
+                        </article>
+                        <article class="card">
+                            <img src="./assets/balancear.png" alt="Balança da vida">
+                            <div class="card-conteudo">
+                                <div class="card-text">
+                                    <span class="categoria">Saúde</span>
+                                    <h3>Balancear vida profissional e pessoal</h3>
+                                    <p class="autor">By Ridhio Satriawan</p>
+                                    <p class="resumo">Lorem ipsum dolor sit amet consectetur. Et amet tristique. Eget molestie posuere enim morbi. Diam mattis nunc ligula donec a.</p>
+                                    <p class="data">22 Agosto 2022</p>
+                                </div>
+                                
+                            </div>
+                        </article>
+                        <article class="card">
+                            <img src="./assets/vscode.png" alt="Código no VSCode">
+                            <div class="card-conteudo">
+                                <div class="card-text">
+                                    <span class="categoria">Desenvolvimento</span>
+                                    <h3>Configurando VSCode</h3>
+                                    <p class="autor">By Fabio Tetsuo</p>
+                                    <p class="resumo">Lorem ipsum dolor sit amet consectetur. Erat interdum et tortor ac sagittis id a etiam. Tellus vitae arcu eget viverra justo. Aliquam ut tellus.</p>
+                                    <p class="data">22 Agosto 2022</p>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="card">
+                            <img src="./assets/monitores.png" alt="Setup com múltiplos monitores">
+                            <div class="card-conteudo">
+                                <div class="card-text">
+                                    <span class="categoria">Produtividade</span>
+                                    <h3>2 monitores ou 1 ultrawide?</h3>
+                                    <p class="autor">By Fulano da Silva</p>
+                                    <p class="resumo">Lorem ipsum dolor sit amet consectetur. Arcu felis adipiscing mattis tristique. Eget molestie posuere enim morbi. Diam mattis.</p>
+                                    <p class="data">22 Agosto 2022</p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+            </div>
+            <!-- Sidebar: asides empilhados -->
+            <div class="sidebar-group">
+                <aside class="section-sidecard">
+                    <div class="tittle-section-sidebar">
+                        <h3>Posts populares</h3>
+                    </div>
+                    <div class="article-sidecard">
+                        <img src="./assets/desen.png" alt="article-1">
+                        <div class="article-sidecard-content">
+                            <h3>Desevolvimento atual</h3>
+                            <p>22 Agosto 2022</p>
+                        </div>
+                    </div>
+                    <div class="article-sidecard">
+                        <img src="./assets/git.png" alt="article-2">
+                        <div class="article-sidecard-content">
+                            <h3>GitLab vs GitHub</h3>
+                            <p>22 Agosto 2022</p>
+                        </div>
+                    </div>
+                    <div class="article-sidecard">
+                        <img src="./assets/cafe.png" alt="article-3">
+                        <div class="article-sidecard-content">
+                            <h3>Café atrapalha?</h3>
+                            <p>22 Agosto 2022</p>
+                        </div>
+                    </div>
+                </aside>
+                <aside class="section-side-categories">
+                    <div class="tittle-section-sidebar">
+                        <h3>Categorias</h3>
+                    </div>
+                    <ul class="widget-categorias">
+                        <li><a href="#">> saúde <span>(1)</span></a></li>
+                        <li><a href="#">> desenvolvimento <span>(2)</span></a></li>
+                        <li><a href="#">> produtividade <span>(2)</span></a></li>
+                        <li><a href="#">> opinião <span>(1)</span></a></li>
+                    </ul>
+                </aside>
+            </div>
+        </section>
+        <footer>
+            <div class="footer-content">
+                <p>Copyright@The Dev News</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
